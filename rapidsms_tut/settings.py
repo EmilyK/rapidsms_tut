@@ -204,6 +204,11 @@ INSTALLED_APPS = (
     "rapidsms.contrib.registration",
     "rapidsms.contrib.echo",
     "rapidsms.contrib.default",  # Must be last
+    
+    # RapidSMS
+    "tut",
+    
+    "rapidsms.contrib.default",  # Must be last
 )
 
 INSTALLED_BACKENDS = {
