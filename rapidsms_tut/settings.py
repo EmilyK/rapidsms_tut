@@ -207,7 +207,8 @@ INSTALLED_APPS = (
     
     # RapidSMS
     "tut",
-    
+    # RapidSMS
+    "voting",
     "rapidsms.contrib.default",  # Must be last
 
 )
@@ -226,6 +227,8 @@ RAPIDSMS_HANDLERS = (
     "tut.myhandlers.HelpHandler",
     "tut.myhandlers.HelpHandler",
     "tut.myhandlers.SumHandler",
+    "voting.handlers.ResultsHandler",
+    "voting.handlers.VoteHandler",
 )
 
 DEFAULT_RESPONSE = "Wow!!! you are awesome!!!"
