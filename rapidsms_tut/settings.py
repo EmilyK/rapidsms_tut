@@ -223,3 +223,5 @@ RAPIDSMS_HANDLERS = (
     'rapidsms.contrib.echo.handlers.echo.EchoHandler',
     'rapidsms.contrib.echo.handlers.ping.PingHandler',
 )
+
+DEFAULT_RESPONSE = "Wow!!! you are awesome!!!"
