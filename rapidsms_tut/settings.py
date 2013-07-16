@@ -209,6 +209,7 @@ INSTALLED_APPS = (
     "tut",
     
     "rapidsms.contrib.default",  # Must be last
+
 )
 
 INSTALLED_BACKENDS = {
@@ -222,6 +223,9 @@ LOGIN_REDIRECT_URL = '/'
 RAPIDSMS_HANDLERS = (
     'rapidsms.contrib.echo.handlers.echo.EchoHandler',
     'rapidsms.contrib.echo.handlers.ping.PingHandler',
+    "tut.myhandlers.HelpHandler",
+    "tut.myhandlers.HelpHandler",
+    "tut.myhandlers.SumHandler",
 )
 
 DEFAULT_RESPONSE = "Wow!!! you are awesome!!!"
